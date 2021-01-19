@@ -21,6 +21,7 @@ namespace ClassMetotDemo
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2 };
 
             MusteriManager musteriManager = new MusteriManager();
+
             musteriManager.Ekle(musteri1);
             musteriManager.Sil(2, "Engin", "DEMİROĞ", "05443333333");
             musteriManager.Listele(musteriler);
