@@ -24,6 +24,5 @@ namespace ClassMetotDemo
                 Console.WriteLine("TEL NO : " + liste.TelNo);
             }
         }
-
     }
 }
